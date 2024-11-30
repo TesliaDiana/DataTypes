@@ -1,7 +1,6 @@
 'use strict';
 
-const inc = (obj) => {
-  console.log(obj);
+const inc = (a) => {
+  if (typeof a === 'object') a.n++;
 };
-
 module.exports = { inc };
